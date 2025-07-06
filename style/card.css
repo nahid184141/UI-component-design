@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", sans-serif; */
+*{
+    margin:0;
+    padding:0;
+}
+#card-box{
+    width:1056px;
+    margin:133px auto;
+}
+
+#card-box .title{
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 38px;
+font-weight: 700;
+line-height: 51px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom:38px;
+}
+#card-box .subtitle{
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 19px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+opacity:0.6;
+margin-bottom:12px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+}
+.card1{
+    
+    width: 339px;
+    
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+   text-align: center;
+    
+
+}
+.card1 .img-container1{
+    width: 339px;
+}
+
+.card1 .img-container1 .img{
+    width: 100%;
+    
+}
+.card1 .pic-info{
+border-radius: 8px;
+
+background: rgba(82, 195, 3, 0.15);
+padding: 11px 25px 11px 25px;
+}
+
+.card1 .pic-info:hover{
+    cursor: pointer;
+}
+
+.gap{
+    margin-top: 51px;
+}
